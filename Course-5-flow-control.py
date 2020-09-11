@@ -49,3 +49,19 @@ else:
 #
 # Make sure to run your program multiple times and test it with values for each 5 of the different grades
 # to make sure that the correct output is displayed for any value entered as a student's score.
+
+verScore = float(input("Please insert the student's scores."))
+
+if verScore >= 90:
+    print("Your grade is A")
+else:
+    if verScore >= 80:
+        print("Your grade is B")
+    else:
+        if verScore >= 70:
+            print("Your grade is C")
+        else:
+            if verScore >= 60:
+                print("Your grade is D")
+            else:
+                print("Your grade is F")
