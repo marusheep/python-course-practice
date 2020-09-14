@@ -109,3 +109,7 @@ elif varInt == 9:
     print("The roman numberal equivalent of 1 is IX.")
 else:
     print("The roman numberal equivalent of 1 is X.")
+
+#bool function
+
+print(bool(0)) # false as 0 is falsthy
